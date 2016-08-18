@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1"/>
+    <meta name="format-detection" content="telephone=no"/>
+	<title>index</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />					
+</head>
+<body>
+    <div class="main-wrapper">
+        <header>
+            <div class="header__top">
+                <div class="wrapper">
+                    <div class="main-logo">
+                        <div class="main-logo__name"><span>ЭКО</span>СИТИ</div>
+                        <p class="main-logo__tagline">Прием и переработка макулатуры в <span>Московском регионе</span></p>
+                    </div>
+                    <div class="main-contact">
+                        <div class="main-contact__item">
+                            <a href="tel:+79166657665" class="main-contact__phone"><i class="fa fa-phone"></i><sub>8 916</sub> 665 7665</a>
+                            <a href="tel:+79269789999" class="main-contact__phone"><sub>8 926</sub> 978 9999</a>
+                            <a href="mailto:info@ecocity.msk.ru" class="main-contact__mail"><i class="fa fa-envelope"></i><span>info@ecocity.msk.ru</span></a>
+                        </div>
+                        <div class="main-contact__item">
+                            <div class="main-contact__address">
+                                <i class="fa fa-map-marker"></i><span>Москва,</span><br/>ул. Зеленоградская, 8с7
+                            </div>
+                            <div class="main-contact__schedule">
+                                <i class="fa fa-calendar"></i>Работаем круглосуточно
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <a href="#" class="social__item"><i class="fa fa-vk"></i></a>
+                        <a href="#" class="social__item"><i class="fa fa-facebook"></i></a>
+                        <a href="#" class="social__item"><i class="fa fa-twitter"></i></a>
+                        <a href="#" class="social__item"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="header_fix">
+                <div class="line-menu">
+                    <div class="wrapper">
+                        <nav>
+                            <ul class="menu">
+                                <li class="menu__item active">
+                                    <a href="#town" class="menu__link">Вывоз макулатуры</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#advantages" class="menu__link">Уничтожение документов</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#services" class="menu__link">Услуги и цены</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#map_anc" class="menu__link">Пункт приема макулатуры</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="#footer" class="menu__link">Контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="town">
+            <a id="town"></a>
+            <div class="town-sheets">
+                <div class="town-bg">
+                    <div class="wrapper">
+                        <h4>Экологически чистый город</h4>
+                        <div class="target">
+                            <div class="target__item">
+                                <span class="target__num">1</span>
+                                <span class="target_text">Спасем природу</span>
+                            </div>
+                            <div class="target__item">
+                                <span class="target__num">2</span>
+                                <span class="target_text">Сдадим макулатуру</span>
+                            </div>
+                            <div class="target__item">
+                                <span class="target__num">3</span>
+                                <span class="target_text">Спасем город</span>
+                            </div>
+                        </div>
+                        <div class="form-order">
+                            <form class="cform" action="/ajax-send.php" method="post">
+                                <div class="cform__item">
+                                    <input type="text" placeholder="Наименование компании:"/>
+                                </div>
+                                <div class="cform__item">
+                                    <input type="text" placeholder="Телефон:" class="phone" name="phone"/>
+                                </div>
+                                <div class="cform__item">
+                                    <input type="text" placeholder="Вес:"/>
+                                </div>
+                                <div class="cform__item">
+                                    <select class="js-styled">
+                                        <option>Макулатура:</option>
+                						<option>Книги</option>
+                						<option>Газеты</option>
+                						<option>Журналы</option>
+                						<option>Архив</option>
+                						<option>Полиграфия</option>
+                						<option>Картон</option>
+                						<option>Гофрокартон</option>
+                						<option>Уничтожение документов</option>
+                						<option>Сжигание документов</option>
+                						<option>Сбор макулатуры в школе</option>
+                						<option>Пленка</option>
+                						<option>Пластик</option>
+                						<option>Вторсырье</option>
+                                    </select>
+                                </div>
+                                <div class="cform__item">
+                                    <input type="text" placeholder="Адрес вывоза:"/>
+                                </div>
+                                <div class="cform__item">
+                                    <input type="submit" value="Заказать вывоз"/>
+                                </div>
+                            </form>
+                            <div class="thanks">
+                                Спасибо за заявку!<br>Наши менеджеры свяжутся с Вами в ближайшее время!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="advantages">
+            <div class="wrapper">
+                <h5>Наши преимущества</h5>
+                <div class="advantages-list">
+                    <div class="advantages-list__item schedule__item">
+                        <div class="advantages-list__icon"></div>
+                        <div class="advantages-list__text">
+                            <h6>Круглосуточно без выходных</h6>
+                            <p>Переработка вторсырья имеет огромное значение для окружающей среды и экономики. Одним из видов вторичного сырья, которое легко поддается переработке, является макулатура. Бумажные изделия, срок службы которых уже подошел к</p>
+                        </div>
+                    </div>
+                    <div class="advantages-list__item weight__item">
+                        <div class="advantages-list__icon"></div>
+                        <div class="advantages-list__text">
+                            <h6>Вывоз от 500 кг</h6>
+                            <p>Переработка вторсырья имеет огромное значение для окружающей среды и экономики. Одним из видов вторичного сырья, которое легко поддается переработке, является макулатура. Бумажные изделия, срок службы которых уже подошел к</p>
+                        </div>
+                    </div>
+                    <div class="advantages-list__item park__item">
+                        <div class="advantages-list__icon"></div>
+                        <div class="advantages-list__text">
+                            <h6>Сообщенный автопарк</h6>
+                            <p>Переработка вторсырья имеет огромное значение для окружающей среды и экономики. Одним из видов вторичного сырья, которое легко поддается переработке, является макулатура. Бумажные изделия, срок службы которых уже подошел к</p>
+                        </div>
+                    </div>
+                    <div class="advantages-list__item sheaver__item">
+                        <div class="advantages-list__icon"></div>
+                        <div class="advantages-list__text">
+                            <h6>Грузчики</h6>
+                            <p>Переработка вторсырья имеет огромное значение для окружающей среды и экономики. Одним из видов вторичного сырья, которое легко поддается переработке, является макулатура. Бумажные изделия, срок службы которых уже подошел к</p>
+                        </div>
+                    </div>
+                    <div class="advantages-list__item price__item">
+                        <div class="advantages-list__icon"></div>
+                        <div class="advantages-list__text">
+                            <h6>Высокая цена</h6>
+                            <p>Переработка вторсырья имеет огромное значение для окружающей среды и экономики. Одним из видов вторичного сырья, которое легко поддается переработке, является макулатура. Бумажные изделия, срок службы которых уже подошел к</p>
+                        </div>
+                    </div>
+                    <div class="advantages-list__item bumph__item">
+                        <div class="advantages-list__icon"></div>
+                        <div class="advantages-list__text">
+                            <h6>Сопроводительные документы</h6>
+                            <p>Переработка вторсырья имеет огромное значение для окружающей среды и экономики. Одним из видов вторичного сырья, которое легко поддается переработке, является макулатура. Бумажные изделия, срок службы которых уже подошел к</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <a id="services"></a>
+            <div class="wrapper">
+                <h5>Услуги</h5>
+                <div class="services-list">
+                    <div class="services-list__item">
+                        <div class="services-list__icon">
+                            <img src="img/magazines.jpg" alt=""/>
+                        </div>
+                        <div class="services-list__text">
+                            <h3>Журналы</h3>
+                            <article>Переработка вторсырья имеет огромное значение для окружающей среды и экономики. Одним из видов</article>
+                        </div>
+                    </div>
+                    <div class="services-list__item">
+                        <div class="services-list__icon">
+                            <img src="img/books.jpg" alt=""/>
+                        </div>
+                        <div class="services-list__text">
+                            <h3>Книги</h3>
+                            <article>Переработка вторсырья имеет огромное значение для окружающей среды и экономики. Одним из видов</article>
+                        </div>
+                    </div>
+                    <div class="services-list__item">
+                        <div class="services-list__icon">
+                            <img src="img/newspaper.jpg" alt=""/>
+                        </div>
+                        <div class="services-list__text">
+                            <h3>Газеты</h3>
+                            <article>Переработка вторсырья имеет огромное значение для окружающей среды и экономики. Одним из видов</article>
+                        </div>
+                    </div>
+                    <div class="services-list__item">
+                        <div class="services-list__icon">
+                            <img src="img/archives.jpg" alt=""/>
+                        </div>
+                        <div class="services-list__text">
+                            <h3>Архивы</h3>
+                            <article>Переработка вторсырья имеет огромное значение для окружающей среды и экономики. Одним из видов</article>
+                        </div>
+                    </div>
+                    <div class="services-list__item">
+                        <div class="services-list__icon">
+                            <img src="img/carton.jpg" alt=""/>
+                        </div>
+                        <div class="services-list__text">
+                            <h3>Картон</h3>
+                            <article>Переработка вторсырья имеет огромное значение для окружающей среды и экономики. Одним из видов</article>
+                        </div>
+                    </div>
+                    <div class="services-list__item">
+                        <div class="services-list__icon">
+                            <img src="img/destruction.jpg" alt=""/>
+                        </div>
+                        <div class="services-list__text">
+                            <h3>Уничтожение документов</h3>
+                            <article>Переработка вторсырья имеет огромное значение для окружающей среды и экономики. Одним из видов</article>
+                        </div>
+                    </div>
+                    <div class="services-list__item">
+                        <div class="services-list__icon">
+                            <img src="img/wastepaper.jpg" alt=""/>
+                        </div>
+                        <div class="services-list__text">
+                            <h3>Сбор макулатуры в школах</h3>
+                            <article>Переработка вторсырья имеет огромное значение для окружающей среды и экономики. Одним из видов</article>
+                        </div>
+                    </div>
+                    <div class="services-list__item">
+                        <div class="services-list__icon">
+                            <img src="img/stretch-film.jpg" alt=""/>
+                        </div>
+                        <div class="services-list__text">
+                            <h3>Стрейч-пленка</h3>
+                            <article>Переработка вторсырья имеет огромное значение для окружающей среды и экономики. Одним из видов</article>
+                        </div>
+                    </div>
+                </div>
+                <a href="#footer" class="to-form">Заказать вывоз</a>
+            </div>
+        </section>
+        <section id="map" class="map">
+            <a id="map_anc"></a>
+            <div class="map-content">
+                <div class="wrapper">
+                    <h5>Пункт приема</h5>
+                    <div class="map-address">
+                        <p class="map-address__city"><span>Москва,</span> ул. Зеленоградская, 8с7</p>
+                        <p class="map-address__mail"><a href="mailto:info@ecocity.msk.ru">info@ecocity.msk.ru</a></p>
+                        <p class="map-address__tel"><a href="tel:+79166657665">8 916 665 76 65</a></p>
+                        <p>Работаем круглосуточно</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="content" class="content">
+            <div class="wrapper">
+                <h1>Сдача макулатуры — выгодный вклад в сохранение окружающей среды</h1>
+                <div class="text-box">
+                    <div class="text-box__item">
+                        <h2>От чего зависит стоимость?</h2>
+                        <p>Переработка вторсырья имеет огромное значение для окружающей среды и экономики. Одним из видов вторичного сырья, которое легко поддается переработке, является макулатура. Бумажные изделия, срок службы которых уже подошел к концу, можно сдать перерабатывающему предприятию. Куда сдать макулатуру? Это очень актуальный вопрос, причем как для юридических, так и для частных лиц. Если вы ищете пункты приема макулатуры в Москве, вы можете обратиться в нашу компанию.</p>
+                        <h2>Требования к вторсырью</h2>
+                        <p>Переработка макулатуры осуществляется при помощи специализированного оборудования. Возможности его работы ограничены в силу специфики конструкции. Именно поэтому, перед тем как сдавать вторичное сырье, его необходимо правильно подготовить, чтобы оно отвечало существующим требованиям.<br />
+Во-первых, купля макулатуры возможна только в том случае, если сырье не загрязнено химикатами, лакокрасочными, масляными, ядовитыми веществами. Необходимо также убедиться в том, что в бумаге нет железных, деревянных и других твердых включений. Следует предварительно избавиться от скрепок, остатков липкой ленты, пластиковых файлов и т. п.<br />
+Во-вторых, следует осуществить сортировку. В отдельные связки или коробки собирается белая бумага (чистая, с печатью, записями), картонные изделия, книги, журналы, газеты. Это дает возможность упростить сбор макулатуры, а также ее дальнейшую транспортировку.</p>
+                    </div>
+                    <div class="text-box__item">
+                        <h2>Преимущества нашей компании</h2>
+                        <p>Мы занимаемся переработкой вторичного сырья на протяжении многих лет. Благодаря большому опыту работы в данной сфере мы можем предложить очень выгодные условия сотрудничества:<br />
+вы можете сдать макулатуру любых видов. Мы принимаем газеты, книги, упаковочные материалы, типографские отходы, документацию и т. д.;<br />
+у нас на макулатуру цена высокая. Стоимость зависит от множества факторов, однако в любом случае мы осуществляем прием макулатуры по ценам, выгодным для наших клиентов;
+пункт приема макулатуры расположен в удобном месте, куда можно без проблем подъехать легковым и грузовым транспортом. Вы без труда найдете наш пункт макулатуры в Москве. Адрес приема макулатуры вы можете посмотреть на нашем сайте, при необходимости уточнить детали проезда можно у нашего менеджера;<br />
+наша компания осуществляет вывоз макулатуры. У нас имеется собственный автопарк с современным грузовым транспортом, а потому наши специалисты могут забрать вторсырье с территории вашего предприятия. Кроме того, в наш пункт макулатуры вы можете привезти вторсырье самостоятельно.<br />
+Места, где сдать макулатуру можно на выгодных условиях, в первую очередь ищут крупные компании — типографии, предприятия с большим документооборотом, издательства и т. д. Однако это не обозначает, что частным лицам нужно будет искать объявления типа «Приму макулатуру». К нам могут обратиться и физические лица, так как мы работаем с любыми объемами вторичного сырья.</p>
+                    </div>
+                </div>
+                <div class="text-box">
+                    <h2>Почему выгодно сдавать макулатуру?</h2>
+                    <p>Мы занимаемся переработкой вторичного сырья на протяжении многих лет. Благодаря большому опыту работы в данной сфере мы можем предложить очень выгодные условия сотрудничества:<br />
+вы можете сдать макулатуру любых видов. Мы принимаем газеты, книги, упаковочные материалы, типографские отходы, документацию и т. д.;<br />
+у нас на макулатуру цена высокая. Стоимость зависит от множества факторов, однако в любом случае мы осуществляем прием макулатуры по ценам, выгодным для наших клиентов;<br />
+пункт приема макулатуры расположен в удобном месте, куда можно без проблем подъехать легковым и грузовым транспортом. Вы без труда найдете наш пункт макулатуры в Москве. Адрес приема макулатуры вы можете посмотреть на нашем сайте, при необходимости уточнить детали проезда можно у нашего менеджера;<br />
+наша компания осуществляет вывоз макулатуры. У нас имеется собственный автопарк с современным грузовым транспортом, а потому наши специалисты могут забрать вторсырье с территории вашего предприятия. Кроме того, в наш пункт макулатуры вы можете привезти вторсырье самостоятельно.<br />
+Места, где сдать макулатуру можно на выгодных условиях, в первую очередь ищут крупные компании — типографии, предприятия с большим документооборотом, издательства и т. д. Однако это не обозначает, что частным лицам нужно будет искать объявления типа «Приму макулатуру». К нам могут обратиться и физические лица, так как мы работаем с любыми объемами вторичного сырья.</p>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="footer-sheets">
+                <div class="wrapper">
+                    <div class="footer-contacts">
+                        <div class="main-logo">
+                            <div class="main-logo__name"><span>ЭКО</span>СИТИ</div>
+                            <p class="main-logo__tagline">Прием и переработка макулатуры в <span>Московском регионе</span></p>
+                        </div>
+                        <div class="main-contact">
+                            <div class="main-contact__item">
+                                <a href="tel:+79166657665" class="main-contact__phone"><i class="fa fa-phone"></i><sub>8 916</sub> 665 7665</a>
+                                <a href="tel:+79269789999" class="main-contact__phone"><sub>8 926</sub> 978 9999</a>
+                                <a href="mailto:info@ecocity.msk.ru" class="main-contact__mail"><i class="fa fa-envelope"></i><span>info@ecocity.msk.ru</span></a>
+                            </div>
+                            <div class="main-contact__item">
+                                <div class="main-contact__address">
+                                    <i class="fa fa-map-marker"></i><span>Москва,</span><br/>ул. Зеленоградская, 8с7
+                                </div>
+                                <div class="main-contact__schedule">
+                                    <i class="fa fa-calendar"></i>Работаем круглосуточно
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social">
+                            <a href="#" class="social__item"><i class="fa fa-vk"></i></a>
+                            <a href="#" class="social__item"><i class="fa fa-facebook"></i></a>
+                            <a href="#" class="social__item"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="social__item"><i class="fa fa-google-plus"></i></a>
+                        </div>
+                    </div>
+                    <div class="form-order">
+                        <form class="cform" action="/ajax-send.php" method="post">
+                            <div class="cform__item">
+                                <input type="text" placeholder="Наименование компании:"/>
+                            </div>
+                            <div class="cform__item">
+                                <input type="text" placeholder="Телефон:" class="phone"/>
+                            </div>
+                            <div class="cform__item">
+                                <input type="text" placeholder="Вес:"/>
+                            </div>
+                            <div class="cform__item">
+                                <select class="js-styled">
+                                    <option>Макулатура:</option>
+            						<option>Книги</option>
+            						<option>Газеты</option>
+            						<option>Журналы</option>
+            						<option>Архив</option>
+            						<option>Полиграфия</option>
+            						<option>Картон</option>
+            						<option>Гофрокартон</option>
+            						<option>Уничтожение документов</option>
+            						<option>Сжигание документов</option>
+            						<option>Сбор макулатуры в школе</option>
+            						<option>Пленка</option>
+            						<option>Пластик</option>
+            						<option>Вторсырье</option>
+                                </select>
+                            </div>
+                            <div class="cform__item">
+                                <input type="text" placeholder="Адрес вывоза:"/>
+                            </div>
+                            <div class="cform__item">
+                                <input type="submit" value="Заказать вывоз"/>
+                            </div>
+                        </form>
+                        <div class="thanks">
+                            Спасибо за заявку!<br>Наши менеджеры свяжутся с Вами в ближайшее время!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+	<script type="text/javascript" src="js/custom.js"></script>
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=r8WbAxdlFK4ElcLm_taq0oeiTBBTWIaJ&width=100%&height=737&id=map&lang=ru_UA&sourceType=constructor&scroll=true"></script>
+</body>
+</html>
